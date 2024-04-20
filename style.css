@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: black; */
+ 
+    
+}
+body,input{
+    background-color: black;
+}
+/* Navigation bar */
+header{
+    width: vw;
+    height: 86px;
+    position:sticky;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+.navbar{
+   
+    height:100%;
+    width:100%;
+    background: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 39.01px;
+   margin-left:40px;
+}
+.navbar .actionbar {
+    margin-right:60px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.actionbar span{
+font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+font-weight: 400;
+line-height: 34.13px;
+text-align: left;
+margin:0px 20px;
+}
+.actionbar a{
+    text-decoration: none;
+    color: black;
+}
+
+/* intro page */
+.intro{
+    padding:40px;
+    display:flex;
+    /* background-color: aqua; */
+  
+}
+.intro .landing_page{
+ /* background-color: rgb(255, 0, 132); */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding-top: 0px;
+ width: 70%;
+ /* height: 50%; */
+
+
+ 
+}
+.intro .landing_page h1{
+ color: white;
+ font-weight: 700;
+ font-size: 60px;
+ margin:20px 0px;
+ font-family: 'Montserrat', sans-serif;
+ 
+}
+.landing_page p{
+    color: white;
+    font-weight: 400;
+    font-size: 28px;
+    margin:20px 0px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.landing_page button{
+    background-color:#FCAF02;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin:20px 0px;
+    border-radius: 50px;
+    width:30%;
+    
+}
+ .jeff_image img{
+    height:400px;
+    margin-left: 50px;
+}
+
+/*  Contact Section*/
+.contact{
+    padding:40px;
+    display:flex;
+    flex-direction: column; 
+}
+.contact h1{
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+   color: #FCAF02;
+    text-align: left;
+    
+}
+.contact input{
+    margin:20px 0px;
+    font-family: Montserrat;
+   height:40px;
+   border-radius: 100px;
+    text-align: left;
+    border: 2px solid #FCAF02;
+    padding-left: 20px;;
+}
+.contact input::placeholder{
+    color: #FCAF02;
+}
+.contact span input{
+width:46%;
+}
+#city{
+    margin-left:110px;
+}
+.contact button{
+    background-color:#FCAF02;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin:20px 40%;
+    border-radius: 50px;
+    width:20%;
+    
+}
+
+/* table section */
+
+.table1 table{
+    margin:40px;
+    width:95%;
+}
+.table1 table,td{
+    border:2px solid #FCAF02;
+    border-collapse: collapse;
+    color:#FCAF02
+}
+.table1 table td{
+font-size: 20px;
+font-weight: 400;
+padding:10px 40px;
+}
+
+.table1 tfoot td{
+    background-color: #FCAF02;
+    padding:10px 40px;
+    color: black;
+    width: 30px;
+   
+}
